@@ -36,6 +36,13 @@ h2 {
     color: #2f2929;
 }
 
+h3 {
+    font-family: 'helvetica', sans-serif;
+    font-style: normal; 
+    color: #2f2929;
+    font-size: 16px;
+}
+
 p {
     font-family: 'helvetica', sans-serif;
     font-style: normal; 
@@ -54,13 +61,35 @@ p {
     box-shadow: 0px 0px 12px 0px #888888;
 }
 
-.navigation {
+.logo {
     position: absolute;
-    right: 25%;
+    display: flex;
+    left: 25%;
     top: 25%;
 }
 
-.website {
+.logocircle {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-style: inset;
+    border-color: red;
+    border-radius: 50%;
+    border-width: 5px;
+}
+
+.logoname {
+    padding-left: 20px;
+}
+
+.navigation {
+    position: absolute;
+    display: flex;
+    right: 20%;
+    top: 25%;
+}
+
+.websitetop {
     position: flex;
     align-items: center;
     align-content: center;
@@ -240,6 +269,51 @@ p {
 }
 
 .assignments {
-    padding: 300px;
+    position: absolute;
+    display: block;
+    padding-top: 100px;
     background-color: #ffffff;
+    width: 100vw;
+}
+
+.assignmentsrow1{
+    display: flex;
+    padding: 30px;
+    width: 100vw;
+}
+
+.websitesketches {
+    flex: 50%;
+}
+
+.independentstudies {
+    flex: 50%;
+}
+
+.assignmentsrow2 {
+    display: flex;
+    padding: 30px;
+    width: 100vw;
+}
+
+.arenachannel {
+    flex: 50%;
+}
+
+.instagram {
+    flex: 50%;
+}
+
+.assignmentsrow3{
+    display: flex;
+    padding: 30px;
+    width: 100vw;
+}
+
+.classzoom {
+    flex: 50%;
+}
+
+.classwebsite {
+    flex: 50%;
 }
