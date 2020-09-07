@@ -116,7 +116,65 @@ p {
     align-items: center;
 }
 
+.leftbox {
+    left: 20%;
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.plant1 {
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+.plant1leaf1 {
+    position: absolute;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px 0;
+    transform: translate (-50%, -50%);
+    right: 40%;
+    top: 60px;
+}
+
+.plant1leaf2 {
+    position: absolute;
+    background-color: aquamarine;
+    height: 70px;
+    width: 70px;
+    border-radius: 0 70px;
+    transform: translate (-50%, -50%);
+    top: 40px;
+}
+
+.plant1potlip {
+    position: absolute;
+    background-color: #c4663f;
+    height: 30px;
+    width: 100px;
+    border-radius: 25px;
+    top: 105px;
+    left: 9%;
+}
+
+.plant1pot {
+    position: absolute;
+    background-color: #c4663f;
+    height: 70px;
+    width: 80px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    top: 130px;
+    left: 14%;
+}
+
 .head {
+    z-index: 9999;
     position: absolute;
     width: 360px;
     height: 240px;
@@ -257,6 +315,137 @@ p {
     border-radius: 0 50px 50px 0;
 }
 
+.rightbox {
+    z-index: 0;
+    right: 20%;
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.cat1 {
+    position: absolute;
+    display: flex;
+    position: absolute;
+    height: 500px;
+    width: 350px;
+}
+
+.cathead {
+    position: absolute;
+    top: -20px;
+    left: 3px;
+    background-color: #f7a75e;
+    height: 100px;
+    width: 130px;
+    border-radius: 30px;
+}
+
+.catear1 {
+    position: absolute;
+    top: -25px;
+    left: 15%;
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid #f7a75e;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.catear2 {
+    position: absolute;
+    top: -25px;
+    right: 15%;
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid #f7a75e;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.cateye1 {
+    position: absolute;
+    background-color: #2f2929;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left: 20%;
+    top: 40px;
+}
+
+.cateye2 {
+    position: absolute;
+    background-color: #2f2929;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    right: 20%;
+    top: 40px;
+}
+
+.catnose {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 10px solid #cc8250;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    left: 45%;
+    top: 65px;
+}
+
+.catbody {
+    background-color: #f7a75e;
+    height: 120px;
+    width: 130px;
+    position: absolute;
+    left: 30px;
+    border-top-right-radius: 50px;
+    top: 80px;
+}
+
+.catcollar {
+    position: absolute;
+    background-color: #982220;
+    height: 15px;
+    width: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.catpaw1 {
+    background-color: #f7a75e;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    bottom: -10px;
+}
+
+.catpaw2 {
+    background-color: #f7a75e;
+    height: 20px;
+    width: 20px;
+    left: 50px;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    bottom: -10px;
+}
+
+.cattail {
+    position: absolute;
+    background-color: #f7a75e;
+    height: 20px;
+    width: 80px;
+    bottom: 0px;
+    right: -70px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
 .assignmentsheader {
     background-color: #ffffff;
     padding-top: 150px;
@@ -280,40 +469,111 @@ p {
     display: flex;
     padding: 30px;
     width: 100vw;
+    margin-left: 50px;
 }
 
 .websitesketches {
     flex: 50%;
 }
 
+.websitesketcheslogo {
+    position: absolute;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.websitesketchesdesc {
+    display: flex;
+}
+
 .independentstudies {
     flex: 50%;
+}
+
+.independentstudieslogo {
+    position: absolute;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.independentstudiesdesc {
+    display: flex;
 }
 
 .assignmentsrow2 {
     display: flex;
     padding: 30px;
     width: 100vw;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .arenachannel {
     flex: 50%;
 }
 
+.arenachannellogo {
+    position: absolute;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.arenachanneldesc {
+    display: flex;
+}
+
 .instagram {
     flex: 50%;
+}
+
+.instagramlogo {
+    position: absolute;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.instagramdesc {
+    display: flex;
 }
 
 .assignmentsrow3{
     display: flex;
     padding: 30px;
     width: 100vw;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .classzoom {
     flex: 50%;
 }
 
+.classzoomlogo {
+    position: absolute;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.classzoomdesc {
+    display: flex;
+}
+
 .classwebsite {
     flex: 50%;
+}
+
+.classwebsitelogo {
+    position: absolute;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.classwebsitedesc {
+    display: flex;
 }
