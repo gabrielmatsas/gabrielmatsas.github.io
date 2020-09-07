@@ -414,27 +414,6 @@ p {
     border-bottom-right-radius: 10px;
 }
 
-.catpaw1 {
-    background-color: #f7a75e;
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    bottom: -10px;
-}
-
-.catpaw2 {
-    background-color: #f7a75e;
-    height: 20px;
-    width: 20px;
-    left: 50px;
-    position: absolute;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    bottom: -10px;
-}
-
 .cattail {
     position: absolute;
     background-color: #f7a75e;
@@ -467,12 +446,14 @@ p {
 
 .assignmentsrow1{
     display: flex;
-    padding: 30px;
+    padding: 10px 100px 10px 100px;
     width: 100vw;
-    margin-left: 50px;
 }
 
 .websitesketches {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
     flex: 50%;
 }
 
@@ -488,6 +469,9 @@ p {
 }
 
 .independentstudies {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
     flex: 50%;
 }
 
@@ -504,13 +488,14 @@ p {
 
 .assignmentsrow2 {
     display: flex;
-    padding: 30px;
+    padding: 10px 100px 10px 100px;
     width: 100vw;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .arenachannel {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
     flex: 50%;
 }
 
@@ -526,6 +511,9 @@ p {
 }
 
 .instagram {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
     flex: 50%;
 }
 
@@ -542,13 +530,14 @@ p {
 
 .assignmentsrow3{
     display: flex;
-    padding: 30px;
+    padding: 10px 100px 10px 100px;
     width: 100vw;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .classzoom {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
     flex: 50%;
 }
 
@@ -564,11 +553,15 @@ p {
 }
 
 .classwebsite {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
     flex: 50%;
 }
 
 .classwebsitelogo {
     position: absolute;
+    padding-right: 20px;
     background-color: aqua;
     width: 50px;
     height: 50px;
