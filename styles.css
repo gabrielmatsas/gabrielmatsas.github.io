@@ -11,6 +11,8 @@ body
     font-style: normal;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 a {
@@ -52,10 +54,12 @@ p {
 
 .navbar {
     z-index: 99999;
-    position: sticky;
-    display: inline-block;
+    position: fixed;
     top: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
     margin: 0;
     background-color: #ffffff;
     width: 100vw;
@@ -64,10 +68,10 @@ p {
 }
 
 .logo {
-    position: absolute;
     display: flex;
-    left: 25%;
-    top: 30%;
+    height: 100%;
+    align-items: center;
+
 }
 
 .logocircle {
@@ -82,16 +86,13 @@ p {
 }
 
 .logoname {
-    position: absolute;
+
     display: flex;
     padding-left: 20px;
 }
 
 .navigation {
-    position: absolute;
-    flex: 50%;
-    right: 20%;
-    top: 28%;
+
 }
 
 .websitetop {
@@ -114,11 +115,12 @@ p {
     margin: 0;
     padding-top: 100px;
     box-sizing: border-box;
-    width: 100vw;
+    max-width: 100vw;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .leftbox {
@@ -442,136 +444,32 @@ p {
 }
 
 .assignments {
-    position: absolute;
     display: block;
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 100px;
     background-color: #ffffff;
-    width: 100vw;
+    width: 100%;
+    justify-content: center;
 }
 
-.assignmentsrow1{
+.assignmentblock {
     display: flex;
-    padding: 10px 100px 10px 100px;
-    width: 100vw;
-}
-
-.websitesketches {
+    margin: 30px;
     border: 1px solid lightgray;
     border-radius: 10px;
     padding: 20px;
-    flex: 50%;
+    width: 500px;
 }
 
-.websitesketcheslogo {
-    position: absolute;
+.assignmentlogo {
+    margin-right: 20px;
     background-color: aqua;
-    width: 50px;
-    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
 }
 
-.websitesketchesdesc {
-    display: flex;
-}
-
-.independentstudies {
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    padding: 20px;
-    flex: 50%;
-}
-
-.independentstudieslogo {
-    position: absolute;
-    background-color: aqua;
-    width: 50px;
-    height: 50px;
-}
-
-.independentstudiesdesc {
-    display: flex;
-}
-
-.assignmentsrow2 {
-    display: flex;
-    padding: 10px 100px 10px 100px;
-    width: 100vw;
-}
-
-.arenachannel {
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    padding: 20px;
-    flex: 50%;
-}
-
-.arenachannellogo {
-    position: absolute;
-    background-color: aqua;
-    width: 50px;
-    height: 50px;
-}
-
-.arenachanneldesc {
-    display: flex;
-}
-
-.instagram {
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    padding: 20px;
-    flex: 50%;
-}
-
-.instagramlogo {
-    position: absolute;
-    background-color: aqua;
-    width: 50px;
-    height: 50px;
-}
-
-.instagramdesc {
-    display: flex;
-}
-
-.assignmentsrow3{
-    display: flex;
-    padding: 10px 100px 10px 100px;
-    width: 100vw;
-}
-
-.classzoom {
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    padding: 20px;
-    flex: 50%;
-}
-
-.classzoomlogo {
-    position: absolute;
-    background-color: aqua;
-    width: 50px;
-    height: 50px;
-}
-
-.classzoomdesc {
-    display: flex;
-}
-
-.classwebsite {
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    padding: 20px;
-    flex: 50%;
-}
-
-.classwebsitelogo {
-    position: absolute;
-    padding-right: 20px;
-    background-color: aqua;
-    width: 50px;
-    height: 50px;
-}
-
-.classwebsitedesc {
-    display: flex;
+.desc {
+    width: 100%;
 }
