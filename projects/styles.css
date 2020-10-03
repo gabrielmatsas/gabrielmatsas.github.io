@@ -95,3 +95,37 @@ p {
 .navigation {
 
 }
+
+.background {
+    position: absolute;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    left: 3%;
+    right: 3%;
+    height: 1000px;
+    border-radius: 8px;
+    background-color: white;
+    z-index: 4;
+}
+
+.background2 {
+    position: absolute;
+    bottom: -270px;
+    left: 4%;
+    right: 4%;
+    height: 300px;
+    border-radius: 8px;
+    background-color: #eeeeee;
+    z-index: 3;
+}
+
+.background3 {
+    position: absolute;
+    bottom: -290px;
+    left: 5%;
+    right: 5%;
+    height: 300px;
+    border-radius: 8px;
+    background-color: #e2e2e2;
+    z-index: 2;
+}
