@@ -88,7 +88,6 @@ p {
 }
 
 .logoname {
-
     display: flex;
     padding-left: 20px;
 }
@@ -98,19 +97,18 @@ p {
 }
 
 .indexcontainer{
+    position: flex;
     margin: 0px;
     padding: 0px;
     height: 100%;
-    width: 100%;
-    position: absolute;
-    display: flex;
+    width: 100%vw;
 }
 
 .blob1 {
     position: absolute;
     display: flex;
     left: 80px;
-    top: 150px;
+    top: 50px;
     width: 500px;
     height: 500px;
     border-radius: 50%;
@@ -137,14 +135,14 @@ p {
     position: absolute;
     display: flex;
     left: 320px;
-    top: 300px;
+    top: 400px;
     width: 600px;
     height: 750px;
     border-radius: 50%;
     background: linear-gradient(-65deg, #81e1f9, #9e86ee);
     transform: 30deg;
     animation: animate2 12s ease-in-out infinite;
-    z-index: 999;
+    z-index: 4;
 }
 
 @keyframes animate2 {
@@ -166,10 +164,11 @@ p {
     position: absolute;
     display: flex;
     left: 1180px;
-    top: 700px;
+    top: 600px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    z-index; 9;
     background: linear-gradient(45deg, #fea901, #c463d2);
     animation: animate3 10s ease-in-out infinite;
 }
@@ -193,7 +192,7 @@ p {
     position: absolute;
     display: flex;
     left: 730px;
-    top: 100px;
+    top: 0px;
     width: 250px;
     height: 200px;
     border-radius: 50%;
@@ -217,12 +216,14 @@ p {
 }
 
 .description {
-    position: absolute;
+    box-sizing: border-box;
+    content: '';
+    position: fixed;
     display: flex;
     width: 500px;
     height: 900px;
-    top: 250px;
-    left: 980px;
+    top: 150px;
+    right: 13%;
 }
 
 .gabriel {
@@ -264,4 +265,14 @@ p {
     display: flex;
     top: 200px;
     left: 0px;
+}
+
+.bottom {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 593px;
+    bottom: -450px;
+    background-color: #ffffff;
+    z-index: 10;
 }
