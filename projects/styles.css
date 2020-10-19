@@ -110,42 +110,6 @@ p {
     z-index: 4;
 }
 
-.cssdrawing {
-    position: absolute;
-    background-color: aqua;
-    width: 500px;
-    height: 100px;
-    left: 50%;
-    top 5%;
-}
-
-.screensaver {
-    position: absolute;
-    background-color: blue;
-    width: 500px;
-    height: 100px;
-    left: 5%;
-    margin-top 300px;
-}
-
-.secret {
-    position: absolute;
-    background-color: red;
-    width: 500px;
-    height: 100px;
-    left: 5%;
-    top 600px;
-}
-
-.aura {
-    position: absolute;
-    background-color: yellow;
-    width: 500px;
-    height: 100px;
-    left: 5%;
-    top 800px;
-}
-
 .background2 {
     position: absolute;
     bottom: -270px;
