@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f2f2f2;
+    font-family: 'helvetica', sans-serif;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+a {
+    font-family: 'helvetica', sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 550;
+    color: #2f2929;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1
+{
+    font-family: 'helvetica', sans-serif;
+    font-style: normal; 
+    color: #2f2929;
+}
+
+h2 {
+    font-family: 'helvetica', sans-serif;
+    font-style: normal; 
+    color: #2f2929;
+}
+
+h3 {
+    font-family: 'helvetica', sans-serif;
+    font-style: normal; 
+    color: #2f2929;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'helvetica', sans-serif;
+    font-style: normal; 
+    color: #aeaead; 
+}
+
+.navbar {
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 45px;
+    box-shadow: 0px 0px 12px 0px #888888;
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+
+.logocircle {
+    position: absolute;
+    display: flex;
+    width: 14px;
+    height: 14px;
+    border-style: inset;
+    border-color: red;
+    border-radius: 50%;
+    border-width: 5px;
+}
+
+.logoname {
+    display: flex;
+    padding-left: 20px;
+}
+
+.navigation {
+
+}
+
+.night {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #2b397f, #287598);
+}
+
+.starcontainer1 {
+    position: absolute;
+    left: 230px;
+    top: 130px;
+    transform: rotateZ(30deg);
+}
+
+.star1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 4px;
+    background: linear-gradient(-45deg, #5F91FF, rgba(0, 0, 255, 0));
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #699BFF);
+    animation: tail 4s ease-in-out infinite,
+             falling 4s ease-in-out infinite;
+}
+
+@keyframes tail{
+  0%{
+    width: 0;
+  }
+  30%{
+    width: 100px;
+  }
+  100%{
+    width: 0;
+  }
+}
+
+@keyframes falling{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(400px);
+  }
+}
+
+@keyframes shining{
+  0%{
+    width: 0;
+  }
+  50%{
+    width: 30px;
+  }
+  100%{
+    width: 0;
+  }
+}
+
+.starcontainer2 {
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    transform: rotateZ(30deg);
+}
+
+.star2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 4px;
+    background: linear-gradient(-45deg, #5F91FF, rgba(0, 0, 255, 0));
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #699BFF);
+    animation: tail 6s ease-in-out infinite,
+             falling 6s ease-in-out infinite;
+}
+
+@keyframes tail{
+  0%{
+    width: 0;
+  }
+  30%{
+    width: 100px;
+  }
+  100%{
+    width: 0;
+  }
+}
+
+@keyframes falling{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(500px);
+  }
+}
+
+@keyframes shining{
+  0%{
+    width: 0;
+  }
+  50%{
+    width: 30px;
+  }
+  100%{
+    width: 0;
+  }
+}
+
+.moon {
+    position: absolute;
+    left: 1200px;
+    top: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #e4e3a2, #b5cb9d);
+    box-shadow: 0 0 15px #e4e3a2;
+}
+
+.mountains {
+    position: absolute;
+    display: flex;
+    width: 55vw;
+    bottom: 0;
+}
+
+.snowcap {
+    position: absolute;
+    content: '';
+    bottom: -98px;
+    left: -50px;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #84a8cf;
+    border-left: 50px solid transparent;
+    z-index: 6;   
+}
+
+.snowcapoverhang {
+    position: absolute;
+    content: '';
+    bottom: -130px;
+    left: -35px;
+    border-top: 50px solid #84a8cf;
+    border-right: 20px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 20px solid transparent;
+    z-index: 999;
+}
+
+.snowcapshadow {
+    position: absolute;
+    content: '';
+    bottom: -86px;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 100px solid #294491;
+    border-left: 0px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewy(-18deg);
+}
+
+.mountain1 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 320px;
+    border-top: 0px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 350px solid #352d80;
+    border-left: 180px solid transparent;
+    z-index: 5;
+}
+
+.mountainshadow1 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 500px;
+    border-top: 0px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 350px solid #300f5f;
+    border-left: 0px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewx(18deg);
+}
+
+.mountain2 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 60px;
+    border-top: 0px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 150px solid #352d80;
+    border-left: 130px solid transparent;
+    z-index: 5;
+}
+
+.mountainshadow2 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 190px;
+    border-top: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 150px solid #300f5f;
+    border-left: 0px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewx(18deg);
+}
+
+.mountain3 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 520px;
+    border-top: 0px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 370px solid #352d80;
+    border-left: 200px solid transparent;
+    z-index: 5;
+}
+
+.mountainshadow3 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 720px;
+    border-top: 0px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 370px solid #300f5f;
+    border-left: 0px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewx(20deg);
+}
+
+.cabin {
+    position: absolute;
+    bottom: 0;
+    left: 810px;
+    z-index: 7;
+    height: 35px;
+    width: 50px;
+    background-color: #111d4d;
+}
+
+.cabinroof {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    border-bottom: 30px solid #111d4d;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    
+}
+
+.cabindoor {
+    position: absolute;
+    bottom: 0px;
+    left: 8px;
+    width: 13px;
+    height: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(#0b092e, #0e1441)
+}
+
+.cabinwindow {
+    position: absolute;
+    width: 12px;
+    height: 15px;
+    left: 28px;
+    bottom: 7px;
+    border-radius: 1px;
+    box-shadow: 0 0 6px orange;
+    background: linear-gradient(45deg, #ef6c19, #f7d148);
+}

@@ -110,54 +110,40 @@ p {
     z-index: 4;
 }
 
-.leftcolumn {
-    margin-top: 45px;
-    left: 3%;
-    width: 720px;
-    height: 900px;
+.cssdrawing {
     position: absolute;
-}
-
-.title1{
-    position: absolute;
-    width: 100%;
+    background-color: aqua;
+    width: 500px;
     height: 100px;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
+    left: 50%;
+    top 5%;
 }
 
-.description1{
+.screensaver {
     position: absolute;
-    width: 100%;
-    top: 100px;
-    height: 320px;
+    background-color: blue;
+    width: 500px;
+    height: 100px;
+    left: 5%;
+    margin-top 300px;
 }
 
-.rightcolumn {
-    margin-top: 45px;
-    right: 3%;
-    width: 720px;
-    height: 900px;
+.secret {
     position: absolute;
+    background-color: red;
+    width: 500px;
+    height: 100px;
+    left: 5%;
+    top 600px;
 }
 
-.img1{
+.aura {
     position: absolute;
-    width: 100%;
-    align-content: center;
-    justify-content: center;
-}
-
-.imgdesc1 {
-    height: 30px;
-    width: 100%;
-    top: 402px;
-    position: absolute;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    
+    background-color: yellow;
+    width: 500px;
+    height: 100px;
+    left: 5%;
+    top 800px;
 }
 
 .background2 {
